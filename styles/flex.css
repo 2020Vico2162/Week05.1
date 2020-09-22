@@ -8,12 +8,9 @@ img {
     width:100%
 }
 
-
-
 @media screen and (min-width: 800px) {
-    div {
-        width:50%;
-    }
+    div {width:50%}
+    
 }
 
 @media screen and (min-width: 1200px) {
