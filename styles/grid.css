@@ -1,18 +1,21 @@
-body { 
+.grid { 
     display:grid 
 }
 
 img {width:100%}
 
+p {
+    margin: 1em 2em
+}
 
 @media screen and (min-width: 800px) {
-    body {
+    .grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body {
-        grid-template-columns: 1fr 1fr 1fr;
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
